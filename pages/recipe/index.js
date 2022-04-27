@@ -1,10 +1,10 @@
-import Layout from '../../components/Layout'
+import React from 'react'
 
 const Recipe = () => {
   return (
-    <Layout title='Menu | DRAMA RESTAURANT'>
-      Recipe
-    </Layout>
+    <div>
+      
+    </div>
   )
 }
 
