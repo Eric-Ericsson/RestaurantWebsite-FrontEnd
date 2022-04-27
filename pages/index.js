@@ -3,6 +3,7 @@ import About from '../components/home/About';
 import Contact from '../components/home/contact';
 import Food from '../components/home/Food';
 import Homepage from '../components/home/homePage';
+import OpeningHours from '../components/home/OpeningHours';
 import Layout from '../components/Layout';
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <About />
       <Food />
       <Contact />
+      <OpeningHours />
     </Layout>
   )
 }
