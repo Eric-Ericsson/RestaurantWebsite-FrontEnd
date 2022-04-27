@@ -20,9 +20,9 @@ export default function Layout({title, keywords,description, children}) {
         href=" "
       />
     </Head>
-    <Footer />
-    {children}
     <NavigationBar />
+    {children}
+    <Footer />
   </div>
   )
 }
