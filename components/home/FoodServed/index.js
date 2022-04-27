@@ -49,7 +49,7 @@ const FoodServed = () => {
             <div>{content.imgUrl}</div>
             <span>{content.class}</span>
             <span>{content.description}</span>
-            <button className="w-36 bg-blue-400 py-4 px-6">Get in Touch</button>
+            <button className="w-36 bg-[] border-2 py-4 px-6">Get in Touch</button>
           </div>
         ))}
       </div>
