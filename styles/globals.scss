@@ -1,0 +1,49 @@
+@import './variables';
+@import './mixins';
+
+
+body {
+	@apply selection:bg-primary-200;
+	font-family: 'Roboto', sans-serif;
+}
+
+:root {
+	--swiper-theme-color: theme('colors.primary.500');
+}
+
+img {
+	@apply h-full w-full object-cover;
+}
+
+input,
+select,
+textarea {
+	/*Input Autofill Background Change*/
+	&:-webkit-autofill,
+	&:-webkit-autofill:hover,
+	&:-webkit-autofill:focus,
+	&:-webkit-autofill:active {
+		transition: background-color 5000s ease-in-out, color 5000s ease-in-out;
+		// -webkit-text-fill-color: #333 !important;
+	}
+}
+
+.btn {
+	&-grad  {
+		background-image: linear-gradient(to right, #0e30f1 0%, #1ac6ff  51%, #4E4772 100%);
+		padding: 13px;
+		text-transform: uppercase;
+		transition: 0.5s;
+		background-size: 200% auto;
+		color: white;            
+		box-shadow: 0 0 5px #eee;
+		border-radius: 50px;
+		display: block;
+		@apply w-[140px] h-[42px] text-center;
+	}
+	&-grad:hover {
+		background-position: right center;
+		color: #fff;
+		text-decoration: none;
+	}
+}
