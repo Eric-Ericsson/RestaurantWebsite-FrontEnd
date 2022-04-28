@@ -1,8 +1,10 @@
+import Image from 'next/image'
+
 const Contact = () => {
   return (
-    <div className="grid md:grid-cols-2 grid-row-none text-center items-center">
+    <div className="grid-row-none grid h-[550px] items-center bg-white text-center text-[16px] text-dark md:grid-cols-2">
       <div>
-        <div className="mb-6">
+        <div className="mb-6 text-[40px] ">
           <span>Contact</span>
         </div>
         <div className="flex flex-col items-center gap-4">
@@ -10,7 +12,7 @@ const Contact = () => {
           <span>munnyhussain5@gmail.com</span>
           <span>123-456-7890</span>
         </div>
-        <div className="flex flex-row mt-2 justify-center gap-4">
+        <div className="mt-2 flex flex-row justify-center gap-4">
           <button className="flex h-[40px] w-[40px] items-center justify-center rounded-full bg-light hover:border-2 hover:border-primary-500 md:h-[45px] md:w-[45px] lg:h-[50px] lg:w-[50px]">
             <svg
               className="h-[18px] w-[14px] md:h-[24px] md:w-[18px] lg:h-[28px] lg:w-[16px]"
@@ -65,7 +67,13 @@ const Contact = () => {
           </button>
         </div>
       </div>
-      <div>Img</div>
+      <div className="relative h-[550px]">
+        <Image
+          src="https://static.wixstatic.com/media/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg/v1/fill/w_466,h_520,fp_0.50_0.50,lg_1,q_80,enc_auto/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg"
+          alt=""
+          layout="fill"
+        />
+      </div>
     </div>
   )
 }
