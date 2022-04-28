@@ -2,7 +2,7 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['i.pinimg.com'],
+    domains: ['i.pinimg.com','static.wixstatic.com'],
     
   },
 }

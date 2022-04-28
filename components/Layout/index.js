@@ -21,7 +21,9 @@ export default function Layout({title, keywords,description, children}) {
       />
     </Head>
     <NavigationBar />
+    <div className='bg-[#06273A] px-20'>
     {children}
+    </div>
     <Footer />
   </div>
   )
