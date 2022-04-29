@@ -1,10 +1,14 @@
 import Head from 'next/head'
 import Footer from '../home/Footer'
 import NavigationBar from '../home/NavBar'
+import { useRouter } from 'next/router'
+
 
 export default function Layout({title, keywords,description, children}) {
+  const router = useRouter()
+
   return (
-    <div>
+    <div className='scroll-smooth'>
     <Head>
       <title>{title}</title>
       <meta
@@ -21,7 +25,7 @@ export default function Layout({title, keywords,description, children}) {
       />
     </Head>
     <NavigationBar />
-    <div className='bg-[#06273A] px-20'>
+    <div className={`scroll-smooth ${router.pathname == '/menu' ? 'px-0' : 'px-20 bg-[#06273A]'}`}>
     {children}
     </div>
     <Footer />
