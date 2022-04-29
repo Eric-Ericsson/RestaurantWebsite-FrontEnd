@@ -1,5 +1,5 @@
-import Head from 'next/head';
 import About from '../components/home/About';
+import AboutUs from '../components/home/AboutUs/aboutUs';
 import Contact from '../components/home/contact';
 import Food from '../components/home/Food';
 import FoodServed from '../components/home/FoodServed';
@@ -12,6 +12,7 @@ const Home = () => {
     <Layout>
       <Homepage />
       <About />
+      <AboutUs />
       <FoodServed />
       <Food />
       <Contact />

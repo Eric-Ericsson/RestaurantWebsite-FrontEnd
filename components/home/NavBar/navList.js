@@ -9,7 +9,7 @@ const NavList = ({ setToggleMenu, setToggleStyle }) => {
     setToggleMenu('false')
   }
   return (
-    <div className="relative  flex flex-col gap-8 py-5 text-[24px] font-bold uppercase text-light md:flex-row md:text-[16px]">
+    <div className="relative flex flex-col gap-8 py-5 text-[24px] font-bold uppercase text-light md:flex-row md:text-[16px]">
       <div
         onClick={handleClose}
         className="absolute -top-32 -right-32 md:hidden"
@@ -26,9 +26,9 @@ const NavList = ({ setToggleMenu, setToggleStyle }) => {
           <path
             fill="none"
             stroke="currentcolor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             d="M2 30L30 2m0 28L2 2"
           />
         </svg>

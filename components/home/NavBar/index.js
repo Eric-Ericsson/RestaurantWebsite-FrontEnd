@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import ModalMenu from './modalMenu'
 import NavList from './navList'
+import NavProgressBar from './navProgress';
+
 
 const NavigationBar = () => {
   const [toggleMenu, setToggleMenu] = useState('false');
@@ -13,7 +15,7 @@ const NavigationBar = () => {
 
   return (
     <>
-      <div className="bg-[#06273A] px-20 pt-8  text-light">
+      <div className="bg-[#06273A] px-8 md:px-20 pt-8  text-light">
         <div className="flex justify-between pb-3 md:pb-0">
           <span className="text-xl">Aysha&apos;s kitchen</span>
           <button onClick={handleOpenButton} className="md:hidden ">
@@ -60,7 +62,9 @@ const NavigationBar = () => {
       </div>
       <div className="sticky z-50 top-0 hidden bg-[#06273A] px-20 md:block">
         <NavList />
+        <NavProgressBar color={'#fff'} />
       </div>
+
       {
         toggleMenu == 'true' && <ModalMenu setToggleMenu={setToggleMenu} toggleStyle={toggleStyle} setToggleStyle={setToggleStyle} />
       }
