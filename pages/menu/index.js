@@ -115,7 +115,9 @@ const Menu = () => {
           <span>our menu</span>
           <div className="flex items-center gap-3">
             <div className="h-[1px] w-14 bg-white"></div>
-            <span className="text-[15px]">welcome to our kitchen</span>
+            <span className="text-[15px]">
+              Discover the True Meaning of Taste
+            </span>
             <div className="h-[1px] w-14 bg-white"></div>
           </div>
         </div>
