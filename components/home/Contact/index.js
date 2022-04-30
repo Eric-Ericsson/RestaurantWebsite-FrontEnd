@@ -2,9 +2,9 @@ import Image from 'next/image'
 
 const Contact = () => {
   return (
-    <div className="grid-row-none grid h-[550px] items-center bg-white text-center text-[16px] text-dark md:grid-cols-2">
+    <div className="grid h-[550px] items-center bg-white text-center text-[16px] text-dark md:grid-cols-2">
       <div>
-        <div className="mb-6 text-[40px] ">
+        <div className="mb-6 text-[40px]">
           <span>Contact</span>
         </div>
         <div className="flex flex-col items-center gap-4">
@@ -67,7 +67,7 @@ const Contact = () => {
           </button>
         </div>
       </div>
-      <div className="relative h-[550px]">
+      <div className="relative h-[550px] md:flex hidden">
         <Image
           src="https://static.wixstatic.com/media/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg/v1/fill/w_466,h_520,fp_0.50_0.50,lg_1,q_80,enc_auto/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg"
           alt=""
