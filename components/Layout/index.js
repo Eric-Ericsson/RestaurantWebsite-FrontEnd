@@ -25,7 +25,7 @@ export default function Layout({title, keywords,description, children}) {
       />
     </Head>
     <NavigationBar />
-    <div className={`scroll-smooth ${router.pathname == '/menu' ? 'px-0' : 'px-8 md:px-20 bg-[#06273A]'}`}>
+    <div className={`scroll-smooth ${router.pathname == '/menu' ? 'px-0' : 'px-8 sm:px-14 md:px-20 bg-[#06273A]'}`}>
     {children}
     </div>
     <Footer />

@@ -30,7 +30,7 @@ const AboutUs = () => {
           </span>
         </div>
       </div>
-      <div className="absolute inset-0  transition-opacity">
+      <div className="absolute inset-0 transition-opacity">
         <svg
           className="opacity-10"
           viewBox="0 0 200 200"

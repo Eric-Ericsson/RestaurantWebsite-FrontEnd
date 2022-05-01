@@ -2,10 +2,10 @@ import Image from 'next/image'
 
 const Contact = () => {
   return (
-    <div className="grid h-[550px] items-center bg-white text-center text-[16px] text-dark md:grid-cols-2">
-      <div>
-        <div className="mb-6 text-[40px]">
-          <span>Contact</span>
+    <div className="grid h-[450px] rounded-3xl md:rounded-none md:h-[550px] items-center bg-white text-center text-[16px] text-dark md:grid-cols-2">
+      <div className='px-8'>
+        <div className="mb-6 text-[40px] text-dark">
+          <span>Contact Us</span>
         </div>
         <div className="flex flex-col items-center gap-4">
           <span>500 Terry Francois Street San Francisco, CA 94158</span>
