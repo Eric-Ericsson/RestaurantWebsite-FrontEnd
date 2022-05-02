@@ -8,7 +8,7 @@ const Slide = ({ slide }) => {
           <div className="absolute flex h-[520px] w-full items-center justify-center rounded-b-[50px] bg-dark opacity-[0.9] md:h-full md:w-[410px] md:rounded-[64px] lg:w-[547px]">
             <div className="top:52 sm:top-30 md:top-25 absolute top-[119px] flex h-[280px] w-[300px] flex-col items-center font-[Mulish] not-italic sm:h-[350px] sm:w-[500px] md:left-[50px] md:h-[400px] md:w-[300px] md:items-start lg:left-[67px]">
               <button className="showcase-button btn bg-primary-gradient absolute top-48 bg-light p-2 sm:p-3 md:left-0 md:top-48 lg:top-52">
-                <span className="text-[12px] text-5 leading-0 top-0 font-bold text-dark md:text-[14px] md:leading-[20px] md:tracking-[0.14em]">
+                <span className="text-5 leading-0 top-0 text-[12px] font-bold text-dark md:text-[14px] md:leading-[20px] md:tracking-[0.14em]">
                   LEARN MORE
                 </span>
               </button>

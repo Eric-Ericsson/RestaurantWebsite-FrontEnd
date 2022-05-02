@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-14 bg-[#06273A] py-8">
-      <div className="">
+      <div>
         <div className="flex flex-row justify-center gap-4 md:justify-start">
           <button className="flex h-[40px] w-[40px] items-center justify-center rounded-full bg-light hover:border-2 hover:border-primary-500 md:h-[45px] md:w-[45px] lg:h-[50px] lg:w-[50px]">
             <svg

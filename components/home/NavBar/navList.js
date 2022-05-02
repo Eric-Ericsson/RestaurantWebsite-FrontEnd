@@ -52,7 +52,7 @@ const NavList = ({ setToggleMenu }) => {
           Menu
         </span>
       </Link>
-      <Link href="/recipe">
+      <Link href="/">
         <span
           className={`cursor-pointer ${
             router.pathname == '/recipe' &&

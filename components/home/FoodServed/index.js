@@ -40,14 +40,14 @@ const FoodServed = () => {
     <div className="my-12 py-8 text-light md:px-20">
       <div className="mb-12 flex flex-col items-center justify-center gap-6 text-center ">
         <span className="text-[40px]">Food</span>
-        <div className="sm:w-[80%] text-[15px] opacity-90 md:w-[50%] md:text-[20px]">
+        <div className="text-[15px] opacity-90 sm:w-[80%] md:w-[50%] md:text-[20px]">
           Food Taste your way through our delicious and handcrafted menu,
           carefully curated with your taste buds in mind. We know that
           you&apos;ll find yourself on an exciting culinary journey at DARMA
           RESTAURENT, and we invite you to come back for more.
         </div>
       </div>
-      <div className="grid gap-8 md:grid-cols-3 lg:grid-cols-4 ">
+      <div className="grid gap-8 md:grid-cols-3 lg:grid-cols-4">
         {foodServed.map((content, index) => (
           <div
             key={index}
@@ -62,12 +62,12 @@ const FoodServed = () => {
                 layout="fill"
               />
             </div>
-            <span className="text-[18px] line-clamp-5">{content.class}</span>
-            <span className='opacity-90'>{content.description}</span>
+            <span className="line-clamp-5 text-[18px]">{content.class}</span>
+            <span className="opacity-90">{content.description}</span>
             <div className="flex items-center justify-center md:justify-start">
-            <button className="w-32 text-[12px] border-2 bg-light py-2 px-6 text-[#06273a] hover:transform hover:opacity-80 hover:duration-500 hover:ease-in">
+              <button className="w-32 border-2 bg-light py-2 px-6 text-[12px] text-[#06273a] hover:transform hover:opacity-80 hover:duration-500 hover:ease-in">
                 Get in Touch
-        </button>
+              </button>
             </div>
           </div>
         ))}

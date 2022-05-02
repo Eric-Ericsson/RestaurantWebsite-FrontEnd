@@ -3,8 +3,8 @@ import Image from 'next/image'
 const AboutUs = () => {
   return (
     <div className="relative md:px-20 ">
-      <div className="z-10 my-12 mt-80 sm:mt-60 grid h-[650px] rounded-[50px] bg-white shadow-2xl md:mt-0 md:grid-cols-2 md:gap-4 lg:gap-16">
-        <div className="flex flex-col items-center justify-center gap-4 px-2 sm:px-8 text-center leading-7 tracking-wide text-dark md:items-start md:px-4 md:text-left md:ml-6 lg:ml-8 lg:w-[80%] lg:gap-8 lg:px-0">
+      <div className="z-10 my-12 mt-80 grid h-[650px] rounded-[50px] bg-white shadow-2xl sm:mt-60 md:mt-0 md:grid-cols-2 md:gap-4 lg:gap-16">
+        <div className="flex flex-col items-center justify-center gap-4 px-2 text-center leading-7 tracking-wide text-dark sm:px-8 md:ml-6 md:items-start md:px-4 md:text-left lg:ml-8 lg:w-[80%] lg:gap-8 lg:px-0">
           <span className="font-mono text-[40px]">About Us</span>
           <span className="text-[20px] opacity-95">Honest Cooking</span>
           <span className="text-[15px] opacity-90">

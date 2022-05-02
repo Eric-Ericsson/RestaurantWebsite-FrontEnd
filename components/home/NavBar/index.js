@@ -1,23 +1,23 @@
 import { useState } from 'react'
 import ModalMenu from './modalMenu'
 import NavList from './navList'
-import NavProgressBar from './navProgress';
-
 
 const NavigationBar = () => {
-  const [toggleMenu, setToggleMenu] = useState('false');
+  const [toggleMenu, setToggleMenu] = useState('false')
   const [toggleStyle, setToggleStyle] = useState('translate-x-full')
 
   const handleOpenButton = () => {
-    setToggleMenu('true');
+    setToggleMenu('true')
     setToggleStyle('translate-x-0')
   }
 
   return (
     <>
-      <div className="bg-[#06273A] px-8 md:px-20 pt-8  text-light">
-        <div className="bg-[#06273A] flex justify-between pb-3 md:pb-0 fixed top-0 right-0 left-0 px-4 p-1 md:p-0 md:px-0 z-10 md:relative">
-          <span className="text-2xl md:text-4xl styleHead">Aysha&apos;s kitchen</span>
+      <div className="bg-[#06273A] px-8 pt-8 text-light  md:px-20">
+        <div className="fixed top-0 right-0 left-0 z-10 flex justify-between bg-[#06273A] p-1 px-4 pb-3 md:relative md:p-0 md:px-0 md:pb-0">
+          <span className="styleHead text-2xl md:text-4xl">
+            Aysha&apos;s kitchen
+          </span>
           <button onClick={handleOpenButton} className="md:hidden ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -60,14 +60,17 @@ const NavigationBar = () => {
         </div>
         <hr className="mt-5 hidden md:block" />
       </div>
-      <div className="sticky z-[70] top-0 hidden bg-[#06273A] px-20 md:block">
+      <div className="sticky top-0 z-[70] hidden bg-[#06273A] px-20 md:block">
         <NavList />
-        {/* <NavProgressBar /> */}
       </div>
 
-      {
-        toggleMenu == 'true' && <ModalMenu setToggleMenu={setToggleMenu} toggleStyle={toggleStyle} setToggleStyle={setToggleStyle} />
-      }
+      {toggleMenu == 'true' && (
+        <ModalMenu
+          setToggleMenu={setToggleMenu}
+          toggleStyle={toggleStyle}
+          setToggleStyle={setToggleStyle}
+        />
+      )}
     </>
   )
 }

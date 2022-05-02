@@ -3,83 +3,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
 
 body {
-	@apply selection:bg-primary-200;
-	font-family: 'Roboto', sans-serif;
+  @apply selection:bg-primary-200;
+  font-family: 'Roboto', sans-serif;
 }
 
 :root {
-	--swiper-theme-color: theme('colors.primary.500');
+  --swiper-theme-color: theme('colors.primary.500');
 }
 
 img {
-	@apply h-full w-full object-cover;
+  @apply h-full w-full object-cover;
 }
 
 input,
 select,
 textarea {
-	/*Input Autofill Background Change*/
-	&:-webkit-autofill,
-	&:-webkit-autofill:hover,
-	&:-webkit-autofill:focus,
-	&:-webkit-autofill:active {
-		transition: background-color 5000s ease-in-out, color 5000s ease-in-out;
-		// -webkit-text-fill-color: #333 !important;
-	}
+  /*Input Autofill Background Change*/
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out, color 5000s ease-in-out;
+    // -webkit-text-fill-color: #333 !important;
+  }
 }
 
 .btn {
-	&-grad  {
-		background-image: linear-gradient(to right, #0e30f1 0%, #1ac6ff  51%, #4E4772 100%);
-		padding: 13px;
-		text-transform: uppercase;
-		transition: 0.5s;
-		background-size: 200% auto;
-		color: white;            
-		box-shadow: 0 0 5px #eee;
-		border-radius: 50px;
-		display: block;
-		@apply w-[140px] h-[42px] text-center;
-	}
-	&-grad:hover {
-		background-position: right center;
-		color: #fff;
-		text-decoration: none;
-	}
+  &-grad {
+    background-image: linear-gradient(
+      to right,
+      #0e30f1 0%,
+      #1ac6ff 51%,
+      #4e4772 100%
+    );
+    padding: 13px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 5px #eee;
+    border-radius: 50px;
+    display: block;
+    @apply h-[42px] w-[140px] text-center;
+  }
+  &-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
 }
 
 .showcase-swiper {
-    .swiper-slide {
-        transition: 0.75s;
-        .title {
-            transition: 0.9s 0.9s;
-            transform: translateY(-80px);
-            opacity: 0;
-        }
-
-        .text1 {
-            transition: 0.75s 0.7s;
-            transform: translateY(-40px);
-            opacity: 0;
-        }
-
-        .showcase-button {
-            transition: 0.5s 0.5s;
-            transform: translateY(-40px);
-            opacity: 0;
-        }
-
-        &-active {
-            .title,
-            .text1,
-            .showcase-button {
-                transform: translateY(0px);
-                opacity: 1;
-            }
-        }
+  .swiper-slide {
+    transition: 0.75s;
+    .title {
+      transition: 0.9s 0.9s;
+      transform: translateY(-80px);
+      opacity: 0;
     }
+
+    .text1 {
+      transition: 0.75s 0.7s;
+      transform: translateY(-40px);
+      opacity: 0;
+    }
+
+    .showcase-button {
+      transition: 0.5s 0.5s;
+      transform: translateY(-40px);
+      opacity: 0;
+    }
+
+    &-active {
+      .title,
+      .text1,
+      .showcase-button {
+        transform: translateY(0px);
+        opacity: 1;
+      }
+    }
+  }
 }
 
 .styleHead {
-	font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script', cursive;
 }

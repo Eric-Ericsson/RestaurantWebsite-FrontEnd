@@ -19,25 +19,27 @@ const Food = () => {
   ]
   return (
     <>
-      <div className="md:px-20 bg-bg-[] my-12 py-8 text-light">
+      <div className="my-12 py-8 text-light md:px-20">
         <div className="mb-12 flex flex-col gap-6 text-center">
-          <span className="text-[40px] font-mono">Food</span>
-          <span className="text-[18px] md:text-[20px] opacity-95">Food for Every mood</span>
+          <span className="font-mono text-[40px]">Food</span>
+          <span className="text-[18px] opacity-95 md:text-[20px]">
+            Food for Every mood
+          </span>
         </div>
-        <div className="grid sm:grid-cols-2 gap-8">
-            {subFood.map((content, index) => (
-              <div key={index}>
-                <div className="relative mb-6 md:mb-12 h-60 md:h-96 text-center shadow-2xl">
-                  <Image src={content.imgUrl} alt="" layout="fill" />
-                </div>
-                <div className="flex flex-col items-center gap-6 text-center">
-                  <span className="text-[18px]">{content.title}</span>
-                  <span className="md:w-[80%] text-[15px] opacity-90">
-                    {content.description}
-                  </span>
-                </div>
+        <div className="grid gap-8 sm:grid-cols-2">
+          {subFood.map((content, index) => (
+            <div key={index}>
+              <div className="relative mb-6 h-60 text-center shadow-2xl md:mb-12 md:h-96">
+                <Image src={content.imgUrl} alt="" layout="fill" />
               </div>
-            ))}
+              <div className="flex flex-col items-center gap-6 text-center">
+                <span className="text-[18px]">{content.title}</span>
+                <span className="text-[15px] opacity-90 md:w-[80%]">
+                  {content.description}
+                </span>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </>

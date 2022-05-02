@@ -47,7 +47,7 @@ const Homepage = () => {
   }
 
   return (
-    <div className="relative mx-auto flex h-[420px] w-full flex-col items-center sm:h-[530px] md:h-[570px] lg:w-[full] ">
+    <div className="relative mx-auto flex h-[420px] w-full flex-col items-center sm:h-[530px] md:h-[570px] lg:w-[full]">
       <div className="showcase-swiper h-[100%] w-[100%] overflow-hidden py-2 md:px-4">
         <div className="swiper-wrapper w-[100%]">{renderSlideshow(slides)}</div>
       </div>
