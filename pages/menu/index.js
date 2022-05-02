@@ -6,7 +6,7 @@ const Menu = () => {
     {
       type: 'Starters',
       imgUrl:
-        'https://static.wixstatic.com/media/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg/v1/fill/w_466,h_520,fp_0.50_0.50,lg_1,q_80,enc_auto/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg',
+        'https://i.pinimg.com/564x/5b/ce/90/5bce9017cc10547022b479d9ea1808c8.jpg',
       dishName: 'Dish Name',
       description:
         'This is your dish description. Include an overview of your ingredients, dietary notes, and other relevant info',
@@ -15,7 +15,7 @@ const Menu = () => {
     {
       type: 'Starters',
       imgUrl:
-        'https://static.wixstatic.com/media/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg/v1/fill/w_466,h_520,fp_0.50_0.50,lg_1,q_80,enc_auto/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg',
+        'https://i.pinimg.com/564x/f1/13/66/f11366925ead8740dac733b2a0b1912c.jpg',
       dishName: 'Dish Name',
       description:
         'This is your dish description. Include an overview of your ingredients, dietary notes, and other relevant info',
@@ -24,7 +24,7 @@ const Menu = () => {
     {
       type: 'Starters',
       imgUrl:
-        'https://static.wixstatic.com/media/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg/v1/fill/w_466,h_520,fp_0.50_0.50,lg_1,q_80,enc_auto/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg',
+        'https://i.pinimg.com/564x/a7/0b/85/a70b85cacda476709b48990640fd56a5.jpg',
       dishName: 'Dish Name',
       description:
         'This is your dish description. Include an overview of your ingredients, dietary notes, and other relevant info',
@@ -33,7 +33,7 @@ const Menu = () => {
     {
       type: 'Mains',
       imgUrl:
-        'https://static.wixstatic.com/media/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg/v1/fill/w_466,h_520,fp_0.50_0.50,lg_1,q_80,enc_auto/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg',
+        'https://i.pinimg.com/564x/95/3e/5e/953e5e6b28b0dbfdd91e440852925653.jpg',
       dishName: 'Dish Name',
       description:
         'This is your dish description. Include an overview of your ingredients, dietary notes, and other relevant info',
@@ -42,7 +42,7 @@ const Menu = () => {
     {
       type: 'Mains',
       imgUrl:
-        'https://static.wixstatic.com/media/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg/v1/fill/w_466,h_520,fp_0.50_0.50,lg_1,q_80,enc_auto/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg',
+        'https://i.pinimg.com/564x/f1/13/66/f11366925ead8740dac733b2a0b1912c.jpg',
       dishName: 'Dish Name',
       description:
         'This is your dish description. Include an overview of your ingredients, dietary notes, and other relevant info',
@@ -51,7 +51,7 @@ const Menu = () => {
     {
       type: 'Mains',
       imgUrl:
-        'https://static.wixstatic.com/media/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg/v1/fill/w_466,h_520,fp_0.50_0.50,lg_1,q_80,enc_auto/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg',
+        'https://i.pinimg.com/564x/1b/d7/c3/1bd7c375605140fab9c81eadb48e1316.jpg',
       dishName: 'Dish Name',
       description:
         'This is your dish description. Include an overview of your ingredients, dietary notes, and other relevant info',
@@ -60,7 +60,7 @@ const Menu = () => {
     {
       type: 'Desserts',
       imgUrl:
-        'https://static.wixstatic.com/media/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg/v1/fill/w_466,h_520,fp_0.50_0.50,lg_1,q_80,enc_auto/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg',
+        'https://i.pinimg.com/564x/f1/13/66/f11366925ead8740dac733b2a0b1912c.jpg',
       dishName: 'Dish Name',
       description:
         'This is your dish description. Include an overview of your ingredients, dietary notes, and other relevant info',
@@ -69,7 +69,7 @@ const Menu = () => {
     {
       type: 'Desserts',
       imgUrl:
-        'https://static.wixstatic.com/media/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg/v1/fill/w_466,h_520,fp_0.50_0.50,lg_1,q_80,enc_auto/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg',
+        'https://i.pinimg.com/564x/5b/ce/90/5bce9017cc10547022b479d9ea1808c8.jpg',
       dishName: 'Dish Name',
       description:
         'This is your dish description. Include an overview of your ingredients, dietary notes, and other relevant info',
@@ -78,7 +78,7 @@ const Menu = () => {
     {
       type: 'Desserts',
       imgUrl:
-        'https://static.wixstatic.com/media/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg/v1/fill/w_466,h_520,fp_0.50_0.50,lg_1,q_80,enc_auto/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg',
+        'https://i.pinimg.com/564x/a7/0b/85/a70b85cacda476709b48990640fd56a5.jpg',
       dishName: 'Dish Name',
       description:
         'This is your dish description. Include an overview of your ingredients, dietary notes, and other relevant info',
@@ -114,11 +114,11 @@ const Menu = () => {
         <div className="absolute flex h-full w-full flex-col items-center justify-center font-mono text-[50px] font-bold uppercase text-light">
           <span>our menu</span>
           <div className="flex items-center gap-3">
-            <div className="h-[1px] w-14 bg-white"></div>
-            <span className="text-[15px]">
+            <div className="h-[1px] w-10 bg-white sm:w-14"></div>
+            <span className="text-[12px] sm:text-[15px]">
               Discover the True Meaning of Taste
             </span>
-            <div className="h-[1px] w-14 bg-white"></div>
+            <div className="h-[1px] w-10 bg-white sm:w-14"></div>
           </div>
         </div>
       </div>
@@ -198,7 +198,7 @@ const Menu = () => {
         </span>
         <div className="absolute flex w-full flex-col items-center justify-center gap-2 p-2 text-[15px] text-light  md:text-[20px]">
           <div className="flex items-center gap-1">
-            <span className="font-mono text-[25px] font-bold md:text-[40px]">
+            <span className="font-mono text-[16px] sm:text-[25px] font-bold md:text-[40px]">
               Looking for something specific?
             </span>
             <span>
@@ -218,8 +218,8 @@ const Menu = () => {
               </svg>
             </span>
           </div>
-          <span className="text-[18px] font-semibold">Requst custom order</span>
-          <div className="flex items-center justify-center gap-8 text-center">
+          <span className="text-[20px] styleHead">Requst custom order</span>
+          <div className="flex items-center justify-center gap-4 md:gap-8 text-center">
             <div className="flex flex-col items-center">
               <span>500 Terry Francois Street</span>
               <span>munnyhussain5@gmail.com</span>

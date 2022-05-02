@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const NavProgressBar = ({ color}) => {
+const NavProgressBar = () => {
       
 const updateProgressBar = () => {
     const {scrollTop, scrollHeight} = document.documentElement;
@@ -13,7 +13,7 @@ const updateProgressBar = () => {
   },[])
 
   return (
-    <div id="progress-bar" className={`absolute top-0 z-[60] bg-white h-[3px]`}></div>
+    <div id="progress-bar" className={`absolute top-0 z-[60] bg-green-600 h-[3px]`}></div>
   )
 }
 

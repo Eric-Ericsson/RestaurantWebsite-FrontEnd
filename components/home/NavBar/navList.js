@@ -1,18 +1,17 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-const NavList = ({ setToggleMenu, setToggleStyle }) => {
+const NavList = ({ setToggleMenu }) => {
   const router = useRouter()
 
   const handleClose = () => {
-    // setToggleStyle('ease-in-out duration-700 translate-x-0');
     setToggleMenu('false')
   }
   return (
     <div className="relative flex flex-col gap-8 py-5 text-[24px] font-bold uppercase text-light md:flex-row md:text-[16px]">
       <div
         onClick={handleClose}
-        className="absolute -top-32 -right-32 md:hidden"
+        className="absolute -top-32 -right-16 sm:-right-32 md:hidden"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +63,7 @@ const NavList = ({ setToggleMenu, setToggleStyle }) => {
         </span>
       </Link>
       <button className="font-bold uppercase">
-        <span>Contact</span>
+        <a href="tel:123-456-7890">Contact</a>
       </button>
     </div>
   )

@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <div className="md:px-20 grid-row-2 my-12 grid h-[650px] gap-12 py-8 md:grid-cols-2 lg:gap-20">
+    <div className="grid-row-2 my-12 grid h-[650px] gap-12 py-8 md:grid-cols-2 md:px-20 lg:gap-20">
       <div className="relative order-last text-white md:order-none">
         <div className="grid-row-2 grid grid-cols-2 gap-4 md:mt-20 lg:gap-8">
           <div className="md:52 relative h-44 shadow-2xl">
@@ -43,13 +43,13 @@ const About = () => {
       <div className="flex flex-col items-center justify-center gap-8 text-center leading-7 tracking-wide text-light md:items-start md:text-left lg:w-[80%]">
         <span className="font-mono text-[40px]">About</span>
         <span className="text-[20px]">Proud to Serve You</span>
-        <span className="text-[15px] opacity-95">
+        <span className="text-[15px] opacity-90">
           Founded in 2000, DARMA RESTAURENT is known for revolutionizing the way
           people eat and enjoy food. We take pride in our ability to discover
           the most unique flavors from around the world and share them with the
           San Francisco area. Join us.
         </span>
-        <button className="w-32 border-2 bg-light py-2 px-6 text-[#06273a]">
+        <button className="w-32 border-2 bg-light py-2 px-6 text-[#06273a] hover:transform hover:opacity-80 hover:duration-500 hover:ease-in">
           Contact
         </button>
       </div>

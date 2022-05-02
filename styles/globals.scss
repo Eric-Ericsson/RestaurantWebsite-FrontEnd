@@ -1,6 +1,6 @@
 @import './variables';
 @import './mixins';
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
 
 body {
 	@apply selection:bg-primary-200;
@@ -46,4 +46,40 @@ textarea {
 		color: #fff;
 		text-decoration: none;
 	}
+}
+
+.showcase-swiper {
+    .swiper-slide {
+        transition: 0.75s;
+        .title {
+            transition: 0.9s 0.9s;
+            transform: translateY(-80px);
+            opacity: 0;
+        }
+
+        .text1 {
+            transition: 0.75s 0.7s;
+            transform: translateY(-40px);
+            opacity: 0;
+        }
+
+        .showcase-button {
+            transition: 0.5s 0.5s;
+            transform: translateY(-40px);
+            opacity: 0;
+        }
+
+        &-active {
+            .title,
+            .text1,
+            .showcase-button {
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.styleHead {
+	font-family: 'Dancing Script', cursive;
 }

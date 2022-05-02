@@ -24,7 +24,7 @@ const Food = () => {
           <span className="text-[40px] font-mono">Food</span>
           <span className="text-[18px] md:text-[20px] opacity-95">Food for Every mood</span>
         </div>
-        <div className="grid grid-cols-2 gap-8">
+        <div className="grid sm:grid-cols-2 gap-8">
             {subFood.map((content, index) => (
               <div key={index}>
                 <div className="relative mb-6 md:mb-12 h-60 md:h-96 text-center shadow-2xl">
@@ -32,7 +32,7 @@ const Food = () => {
                 </div>
                 <div className="flex flex-col items-center gap-6 text-center">
                   <span className="text-[18px]">{content.title}</span>
-                  <span className="md:w-[80%] text-[15px] opacity-95">
+                  <span className="md:w-[80%] text-[15px] opacity-90">
                     {content.description}
                   </span>
                 </div>

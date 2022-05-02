@@ -2,19 +2,19 @@ import Image from 'next/image'
 
 const AboutUs = () => {
   return (
-    <div className="relative md:px-20">
-      <div className="z-10 my-12 mt-60 grid h-[650px] rounded-[50px] bg-white shadow-2xl md:mt-0 md:grid-cols-2 md:gap-4 lg:gap-16">
-        <div className="flex flex-col items-center justify-center gap-4 px-8 text-center leading-7 tracking-wide text-dark md:items-start md:px-4 md:text-left md:ml-6 lg:ml-8 lg:w-[80%] lg:gap-8 lg:px-0">
+    <div className="relative md:px-20 ">
+      <div className="z-10 my-12 mt-80 sm:mt-60 grid h-[650px] rounded-[50px] bg-white shadow-2xl md:mt-0 md:grid-cols-2 md:gap-4 lg:gap-16">
+        <div className="flex flex-col items-center justify-center gap-4 px-2 sm:px-8 text-center leading-7 tracking-wide text-dark md:items-start md:px-4 md:text-left md:ml-6 lg:ml-8 lg:w-[80%] lg:gap-8 lg:px-0">
           <span className="font-mono text-[40px]">About Us</span>
           <span className="text-[20px] opacity-95">Honest Cooking</span>
-          <span className="text-[15px] opacity-95">
+          <span className="text-[15px] opacity-90">
             DARMA restaurant has been nestled in the San Francisco area ever
             since 2000. This cozy establishment highlights our passion for
             market-fresh ingredients, honest cooking, and an enjoyable
             atmosphere. Our menu features a selection of dishes, all made
             in-house by our team of talented chefs.
           </span>
-          <span className="text-[15px] opacity-95">
+          <span className="text-[15px] opacity-90">
             With some of the most delicious combinations of ingredients, there
             is something for everyone to enjoy. Loved by locals and traveling
             foodies alike, now is the perfect time for you to join us today at

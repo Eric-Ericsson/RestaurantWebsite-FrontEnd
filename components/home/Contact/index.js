@@ -3,9 +3,9 @@ import Image from 'next/image'
 const Contact = () => {
   return (
     <div className='md:px-20'>
-    <div className="grid h-[450px] rounded-3xl md:rounded-none md:h-[550px] items-center bg-white text-center text-[16px] text-dark md:grid-cols-2">
-      <div className='px-8'>
-        <div className="mb-6 text-[40px] text-dark">
+    <div className="grid h-[350px] sm:h-[350px] rounded-3xl md:rounded-none md:h-[550px] items-center bg-white text-center text-[16px] text-dark md:grid-cols-2">
+      <div className=''>
+        <div className="mb-6 text-[30px] sm:text-[40px] text-dark">
           <span>Contact Us</span>
         </div>
         <div className="flex flex-col items-center gap-4">

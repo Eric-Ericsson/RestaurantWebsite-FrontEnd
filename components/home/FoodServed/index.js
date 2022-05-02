@@ -37,10 +37,10 @@ const FoodServed = () => {
     },
   ]
   return (
-    <div className="md:px-20 my-12 py-8 text-light">
+    <div className="my-12 py-8 text-light md:px-20">
       <div className="mb-12 flex flex-col items-center justify-center gap-6 text-center ">
         <span className="text-[40px]">Food</span>
-        <div className="w-[80%] text-[18px] md:text-[20px] opacity-90 md:w-[50%]">
+        <div className="sm:w-[80%] text-[15px] opacity-90 md:w-[50%] md:text-[20px]">
           Food Taste your way through our delicious and handcrafted menu,
           carefully curated with your taste buds in mind. We know that
           you&apos;ll find yourself on an exciting culinary journey at DARMA
@@ -51,18 +51,23 @@ const FoodServed = () => {
         {foodServed.map((content, index) => (
           <div
             key={index}
-            className="flex flex-col gap-4 text-center md:text-left text-[15px]"
+            className="flex flex-col gap-4 text-center text-[15px] md:text-left"
           >
             <span className="text-[20px]">{content.title}</span>
             <div className="relative h-52">
-              <Image className='shadow-2xl' src={content.imgUrl} alt="" layout="fill" />
+              <Image
+                className="shadow-2xl"
+                src={content.imgUrl}
+                alt=""
+                layout="fill"
+              />
             </div>
-            <span className="text-[18px] line-clamp-6">{content.class}</span>
-            <span>{content.description}</span>
-            <div className='flex items-center justify-center md:justify-start'>
-            <button className="w-32 border-2 bg-light py-2 px-2 text-[#06273a] ">
-              Get in Touch
-            </button>
+            <span className="text-[18px] line-clamp-5">{content.class}</span>
+            <span className='opacity-90'>{content.description}</span>
+            <div className="flex items-center justify-center md:justify-start">
+            <button className="w-32 text-[12px] border-2 bg-light py-2 px-6 text-[#06273a] hover:transform hover:opacity-80 hover:duration-500 hover:ease-in">
+                Get in Touch
+        </button>
             </div>
           </div>
         ))}
