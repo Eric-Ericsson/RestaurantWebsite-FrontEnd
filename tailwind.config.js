@@ -47,8 +47,6 @@ module.exports = {
 			// },
 		},
 		screens: {
-			xs: '300px',
-			// => @media (max-width: 300px) { ... }
 
 			sm: '640px',
 			// => @media (max-width: 640px) { ... }
