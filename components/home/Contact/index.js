@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 const Contact = () => {
   return (
+    <div className='md:px-20'>
     <div className="grid h-[450px] rounded-3xl md:rounded-none md:h-[550px] items-center bg-white text-center text-[16px] text-dark md:grid-cols-2">
       <div className='px-8'>
         <div className="mb-6 text-[40px] text-dark">
@@ -69,12 +70,14 @@ const Contact = () => {
       </div>
       <div className="relative h-[550px] md:flex hidden">
         <Image
-          src="https://static.wixstatic.com/media/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg/v1/fill/w_466,h_520,fp_0.50_0.50,lg_1,q_80,enc_auto/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg"
+          src="https://i.pinimg.com/564x/95/3e/5e/953e5e6b28b0dbfdd91e440852925653.jpg"
           alt=""
           layout="fill"
         />
       </div>
     </div>
+    </div>
+
   )
 }
 

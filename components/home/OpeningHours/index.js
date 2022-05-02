@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 const OpeningHours = () => {
   return (
+    <div className='md:px-20'>
     <div className="relative mt-32 h-80 md:h-96 bg-gray-700 py-20">
       <span>
         <Image
@@ -29,6 +30,8 @@ const OpeningHours = () => {
         </div>
       </div>
     </div>
+    </div>
+
   )
 }
 

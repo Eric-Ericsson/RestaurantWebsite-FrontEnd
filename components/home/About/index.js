@@ -2,13 +2,13 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <div className="grid-row-2 my-12 grid h-[650px] gap-12 py-8 md:grid-cols-2 lg:gap-20">
+    <div className="md:px-20 grid-row-2 my-12 grid h-[650px] gap-12 py-8 md:grid-cols-2 lg:gap-20">
       <div className="relative order-last text-white md:order-none">
         <div className="grid-row-2 grid grid-cols-2 gap-4 md:mt-20 lg:gap-8">
           <div className="md:52 relative h-44 shadow-2xl">
             <Image
               className="rounded-lg shadow-2xl"
-              src="https://static.wixstatic.com/media/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg/v1/fill/w_466,h_520,fp_0.50_0.50,lg_1,q_80,enc_auto/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg"
+              src="https://i.pinimg.com/564x/28/54/12/28541210601101900dd3197c8c93b30a.jpg"
               alt=""
               layout="fill"
             />
@@ -16,7 +16,7 @@ const About = () => {
           <div className="md:52 relative mt-12 h-44 shadow-2xl">
             <Image
               className="rounded-lg shadow-2xl"
-              src="https://static.wixstatic.com/media/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg/v1/fill/w_466,h_520,fp_0.50_0.50,lg_1,q_80,enc_auto/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg"
+              src="https://i.pinimg.com/564x/f1/13/66/f11366925ead8740dac733b2a0b1912c.jpg"
               alt=""
               layout="fill"
             />
@@ -24,7 +24,7 @@ const About = () => {
           <div className="md:52 relative -mt-12 h-44 shadow-2xl">
             <Image
               className="rounded-lg shadow-2xl"
-              src="https://static.wixstatic.com/media/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg/v1/fill/w_466,h_520,fp_0.50_0.50,lg_1,q_80,enc_auto/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg"
+              src="https://i.pinimg.com/564x/5b/ce/90/5bce9017cc10547022b479d9ea1808c8.jpg"
               alt=""
               layout="fill"
             />
@@ -32,7 +32,7 @@ const About = () => {
           <div className="md:52 relative h-44 shadow-2xl">
             <Image
               className="rounded-lg shadow-2xl"
-              src="https://static.wixstatic.com/media/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg/v1/fill/w_466,h_520,fp_0.50_0.50,lg_1,q_80,enc_auto/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg"
+              src="https://i.pinimg.com/564x/a7/0b/85/a70b85cacda476709b48990640fd56a5.jpg"
               alt=""
               layout="fill"
             />

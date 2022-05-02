@@ -1,4 +1,6 @@
 import 'tailwindcss/tailwind.css';
+import 'swiper/scss';
+import "swiper/scss/autoplay";
 import '../styles/globals.scss'
 import '../styles/navProgressBar.scss'
 

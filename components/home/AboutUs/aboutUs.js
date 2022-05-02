@@ -2,17 +2,9 @@ import Image from 'next/image'
 
 const AboutUs = () => {
   return (
-    <div className="relative">
-      <div className="z-10 my-12 mt-60 grid h-[650px] rounded-br-[50px] rounded-bl-[50px] rounded-tl-[50px] rounded-tr-[50px] bg-white shadow-2xl md:mt-0 md:grid-cols-2 md:gap-4  lg:gap-16">
-        <div className="relative hidden md:inline">
-          <Image
-            className="rounded-tl-[50px] rounded-bl-[50px]"
-            src="https://static.wixstatic.com/media/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg/v1/fill/w_466,h_520,fp_0.50_0.50,lg_1,q_80,enc_auto/e894f1_9afd2a055d3b44b09ab2974fe1692f17~mv2.jpg"
-            alt=""
-            layout="fill"
-          />
-        </div>
-        <div className="flex flex-col items-center justify-center gap-4 px-8 text-center leading-7 tracking-wide text-dark md:items-start md:px-4 md:text-left lg:w-[80%] lg:gap-8 lg:px-0">
+    <div className="relative md:px-20">
+      <div className="z-10 my-12 mt-60 grid h-[650px] rounded-[50px] bg-white shadow-2xl md:mt-0 md:grid-cols-2 md:gap-4 lg:gap-16">
+        <div className="flex flex-col items-center justify-center gap-4 px-8 text-center leading-7 tracking-wide text-dark md:items-start md:px-4 md:text-left md:ml-6 lg:ml-8 lg:w-[80%] lg:gap-8 lg:px-0">
           <span className="font-mono text-[40px]">About Us</span>
           <span className="text-[20px] opacity-95">Honest Cooking</span>
           <span className="text-[15px] opacity-95">
@@ -28,6 +20,14 @@ const AboutUs = () => {
             foodies alike, now is the perfect time for you to join us today at
             DARMA restaurant.
           </span>
+        </div>
+        <div className="relative hidden md:inline">
+          <Image
+            className="rounded-tr-[50px] rounded-br-[50px]"
+            src="https://i.pinimg.com/564x/1b/d7/c3/1bd7c375605140fab9c81eadb48e1316.jpg"
+            alt=""
+            layout="fill"
+          />
         </div>
       </div>
       <div className="absolute inset-0 transition-opacity">
